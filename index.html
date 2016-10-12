@@ -1,83 +1,1398 @@
-<!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
-  <link rel="stylesheet" href="stylesheets/github-dark.css">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
-
-  <title>CJ Walls</title>
-  <meta name="description" content="">
-
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-
+    <title>Quidditch</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon && Apple touch -->
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/favicon/apple_icons_57x57.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple_icons_72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple_icons_114x114.png" />
+    
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/plugins.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen" />    	
 </head>
-
-<body>
-
-  <div class="wrapper">
-    <header>
-      <h1 class="title">CJ Walls</h1>
-    </header>
-    <div id="container">
-      <p class="tagline"></p>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-          <a href="https://github.com/sllawcj" class="code">View CJ Walls on GitHub</a>
+<body class="animated" data-animated="fadeIn">
+	<!-- Home section-->
+    <div id="home">   
+        <header class="main_header">
+            <div class="header_wrapper container">
+                <a class="logo" href="index.html">
+                    <img class="logo_def" src="images/logo/logo.png" width="216" height="136" alt="logo"/>
+                    <img class="logo_retina" src="images/logo/retina.png" width="216" height="136" alt="logo"/>
+                </a>        
+                <nav class="navmenu">
+                    <ul id="menu">
+                        <li class="scrollable current-menu-item"><a href="#home">Home</a></li>
+                        <li class="scrollable"><a href="#about">About</a></li>
+                        <li class="scrollable"><a href="#gallery">Gallery</a></li>
+                        <li class="scrollable"><a href="#portfolio">Portfolio</a></li>
+                        <li class="scrollable"><a href="#blog">Blog</a></li>
+                        <li class="scrollable"><a href="#contacts">Contacts</a></li>
+                        <li><a href="javascript:void(0);">Features</a>
+                          <ul class="sub-menu">
+                            <li><a href="shortcodes.html">Shortcodes</a></li>
+                            <li><a href="typography.html">Typography</a></li>
+                            <li><a href="javascript:void(0);">Pages</a>
+                                <ul class="sub-menu">
+                                    <li><a href="portfolio-1-col.html">Column 1</a></li>
+                                    <li><a href="portfolio-2-col.html">Column 2</a></li>
+                                    <li><a href="portfolio-3-col.html">Column 3</a></li>
+                                    <li><a href="portfolio-4-col.html">Column 4</a></li>
+                                    <li><a href="portfolio-post.html">Portfolio Post</a></li>
+                                    <li><a href="blog-post.html">Blog post</a></li>
+                                    <li><a href="blog-grid.html">Blog grid</a></li>
+                                </ul>
+                            </li>
+                          </ul>
+                        </li>
+                    </ul>
+                </nav>         
+            </div>
+        </header>
+        
+        <!-- Slider -->
+        <div class="bannercontainer">
+            <div class="fullscreenbanner">
+                <ul>
+                  <!-- SLIDE 1 -->
+                  <li data-transition="fade" data-slotamount="5" data-masterspeed="700" >              
+                    <img src="images/slider/pic1.jpg" alt="slide1" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
+                    <!-- LAYER NR. 1 -->
+                    <div class="slider_wraper">
+                      <div class="tp-caption light_heavy_70_shadowed lfb ltt tp-resizeme slC slide1_1"
+                           data-x="center" data-hoffset="0"
+                           data-y="center" data-voffset="-112"
+                           data-speed="600"
+                           data-start="800"
+                           data-easing="Power4.easeOut"
+                           data-splitin="none"
+                           data-splitout="none"
+                           data-elementdelay="0.01"
+                           data-endelementdelay="0.1"
+                           data-endspeed="300"
+                           data-endeasing="Power4.easeIn">
+                        <span>Top Notch Multipurpose</span>
+                      </div>
+                      <!-- LAYER NR. 2 -->
+                      <div class="tp-caption light_medium_30_shadowed lfb ltt tp-resizeme slide1_2"
+                           data-x="center" data-hoffset="0"
+                           data-y="center" data-voffset="32"
+                           data-speed="600"
+                           data-start="900"
+                           data-easing="Power4.easeOut"
+                           data-splitin="none"
+                           data-splitout="none"
+                           data-elementdelay="0.01"
+                           data-endelementdelay="0.1"
+                           data-endspeed="500"
+                           data-endeasing="Power4.easeIn"><img src="images/slider/text1.png" alt=""/>
+                      </div>
+                      <!-- LAYER NR. 3 -->
+                      <div class="tp-caption bignumbers_white lfb ltt tp-resizeme slide1_3"
+                           data-x="center" data-hoffset="0"
+                           data-y="center" data-voffset="155"
+                           data-speed="600"
+                           data-start="1000"
+                           data-easing="Power4.easeOut"
+                           data-splitin="none"
+                           data-splitout="none"
+                           data-elementdelay="0.01"
+                           data-endelementdelay="0.1"
+                           data-endspeed="600"
+                           data-endeasing="Power4.easeIn">Discover elegant solution for your online projects! Fast, Reliable, Affordable!
+                      </div>
+                    </div>
+                  </li>
+                  <!-- SLIDE 2 -->
+                  <li data-transition="3dcurtain-vertical" data-slotamount="10" data-masterspeed="800" >
+                    <img src="images/slider/pic2.jpg" alt="slide1" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
+                    <!-- LAYER NR. 1 -->
+                    <div class="slider_wraper">
+                      <div class="tp-caption light_heavy_70_shadowed lfb ltt tp-resizeme slC slide2_1"
+                           data-x="center" data-hoffset="0"
+                           data-y="center" data-voffset="-100"
+                           data-speed="600"
+                           data-start="800"
+                           data-easing="Power4.easeOut"
+                           data-splitin="none"
+                           data-splitout="none"
+                           data-elementdelay="0.01"
+                           data-endelementdelay="0.1"
+                           data-endspeed="300"
+                           data-endeasing="Power4.easeIn">Web Design Trend of the Moment!
+                      </div>
+                      <!-- LAYER NR. 2 -->
+                      <div class="tp-caption light_medium_30_shadowed lfb ltt tp-resizeme slide2_2"
+                           data-x="center" data-hoffset="0"
+                           data-y="center" data-voffset="20"
+                           data-speed="600"
+                           data-start="900"
+                           data-easing="Power4.easeOut"
+                           data-splitin="none"
+                           data-splitout="none"
+                           data-elementdelay="0.01"
+                           data-endelementdelay="0.1"
+                           data-endspeed="500"
+                           data-endeasing="Power4.easeIn"><img src="images/slider/text2.png" alt=""/>
+                      </div>
+                      <!-- LAYER NR. 3 -->
+                      <div class="tp-caption bignumbers_white lfb ltt tp-resizeme slide2_3"
+                           data-x="center" data-hoffset="0"
+                           data-y="center" data-voffset="125"
+                           data-speed="600"
+                           data-start="1000"
+                           data-easing="Power4.easeOut"
+                           data-splitin="none"
+                           data-splitout="none"
+                           data-elementdelay="0.01"
+                           data-endelementdelay="0.1"
+                           data-endspeed="600"
+                           data-endeasing="Power4.easeIn">Fresh &amp; Clean, Easy to Use, Very Flexible, CEO Friendly, Fully Responsive &amp; Retina Ready!
+                      </div>
+                    </div>
+                  </li>
+                  <!-- SLIDE 3 -->
+                  <li data-transition="parallaxtobottom" data-slotamount="3" data-masterspeed="1000" data-saveperformance="off" data-title="Slide">
+                    <img src="images/slider/pic3.jpg" alt="slide1" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"/>
+                    <!-- LAYER NR. 1 -->
+                    <div class="caption fade slide3_1"
+                         data-autoplay="false"
+                         data-nextslideatend="true"
+                         data-x="270"
+                         data-y="80"
+                         data-speed="500"
+                         data-start="10"
+                         data-easing="easeOutBack"><iframe src="http://player.vimeo.com/video/29298709?title=0&amp;byline=0&amp;portrait=0;api=1"></iframe>
+                    </div>
+                  </li>
+                </ul>
+            </div>
         </div>
-        <span class="blc"></span><span class="trc"></span>
+        <!-- //Slider -->
+        
+        <!-- Iconboxes -->
+        <div class="container icon_block">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="shortcode_iconbox">
+                <div class="iconbox_wrapper">
+                  <div class="ico_wrapper">
+                    <div class="ico">
+                      <span><i class="fa fa-star"></i></span>
+                    </div>
+                    <div class="icb_pretitle"><span class="icb_pretitle_lt"></span>
+                      <span class="icb_pretitle_mid"></span>
+                      <span class="icb_pretitle_rt"></span>
+                    </div>
+                  </div>
+                  <div class="iconbox_body">
+                    <h5 class="iconbox_title">One Page Design</h5>
+                    <span class="icb_finish"></span>
+                    <p>One page design becomes more and more popular though it is not a new trend for 2014. <a href="javascript:void(0);">The main idea</a> of a single page site is to cater users attention.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="shortcode_iconbox">
+                <div class="iconbox_wrapper">
+                  <div class="ico_wrapper">
+                    <div class="ico">
+                      <span><i class="fa fa-cog"></i></span>
+                    </div>
+                    <div class="icb_pretitle"><span class="icb_pretitle_lt"></span>
+                      <span class="icb_pretitle_mid"></span>
+                      <span class="icb_pretitle_rt"></span>
+                    </div>
+                  </div>
+                  <div class="iconbox_body">
+                    <h5 class="iconbox_title">Very Flexible</h5>
+                    <span class="icb_finish"></span>
+        
+                    <p>Integer vel varius et eros eu arcu aliquet vulputate nunc neque nunc, nec blandit sed lacus vel, consectetur mollis elit nullam pretium, odio id. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="shortcode_iconbox">
+                <div class="iconbox_wrapper">
+                  <div class="ico_wrapper">
+                    <div class="ico">
+                      <span><i class="fa fa-tablet"></i></span>
+                    </div>
+                    <div class="icb_pretitle"><span class="icb_pretitle_lt"></span>
+                      <span class="icb_pretitle_mid"></span>
+                      <span class="icb_pretitle_rt"></span>
+                    </div>
+                  </div>
+                  <div class="iconbox_body">
+                    <h5 class="iconbox_title">Fully Responsive</h5>
+                    <span class="icb_finish"></span>
+        
+                    <p>nteger vel varius et eros eu arcu aliquet vulputate nunc neque nunc, nec blandit sed lacus vel, <a href="javascript:void(0);">consectetur</a> mollis elit nullam pretium, odio id. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <article class="markdown-body">
-          <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
-
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
-
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-        </article>
-      </div>
+    	<!-- //Iconboxes -->    
+    
+        <!-- Parallax --> 
+        <section class="bg-1 text-center parallax mb70">
+          <h6 class="mt55">Right here we’ve got something you gonna love...</h6>
+          <h4 class="mb35">DISCOVER THE POWER OF GT3 PAGE BUILDER PLUGIN!</h4>
+          <div class="buy_button">
+            <a href="javascript:void(0);">Buy Template on Themeforest!</a>
+          </div>
+        </section>
+        <!-- //Parallax --> 
+        
+        <div class="container mb20">
+        	<div class="bg_title">
+            	<h4 class="headInModule text-center">BREAKING NEWS</h4>
+            </div>
+        </div>
+            
+        <!-- Features items -->
+        <div class="container">
+          <div class="row mb70">
+            <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="wrapped_img">
+                <a href="javascript:void(0);">
+                  <div class="featured_link_ico">
+                    <i class="fa fa-link"></i>
+                  </div>
+                  <div class="featured_item_fadder"></div>
+                  <img src="images/featured/pic1.jpg" alt=""/>
+                </a>
+              </div>
+              <div class="featured_body">
+                <div class="featured_items_title">
+                  <h5><a href="javascript:void(0);">Lorem Ipsum Dolor</a></h5>        
+                  <div class="featured_items_meta">
+                    <span class="features_date">April 25, 2019 </span>
+                    <span class="features_comments">
+                        <a href="javascript:void(0);">4 comments</a>
+                    </span>
+                  </div>
+                </div>
+                <div class="features_text">
+                	<p>Integer vel varius et eros eu arcu aliquet vulputate nunc neque nunc, nec blandit sed lacus vel, <a href="javascript:void(0);">Read more!</a></p>
+                </div>
+              </div>
+            </div>
+        
+            <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="wrapped_img">
+                <a href="javascript:void(0);">
+                  <div class="featured_link_ico">
+                    <i class="fa fa-link"></i>
+                  </div>
+                  <div class="featured_item_fadder"></div>
+                  <img src="images/featured/pic2.jpg" alt=""/>
+                </a>
+              </div>
+              <div class="featured_body">
+                <div class="featured_items_title">
+                  <h5><a href="javascript:void(0);">Lorem Ipsum Dolor</a></h5>        
+                  <div class="featured_items_meta">
+                    <span class="features_date">April 25, 2019 </span>
+                    <span class="features_comments">
+                        <a href="javascript:void(0);">4 comments</a>
+                    </span>
+                  </div>
+                </div>
+                <div class="features_text">
+                  <p>Aenean ullamcorper placerat erat, et porttitor velit aliquam vitae. Suspendisse convallis <a href="javascript:void(0);">Read more!</a></p>
+                </div>
+              </div>
+            </div>
+        
+            <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="wrapped_img">
+                <a href="javascript:void(0);">
+                  <div class="featured_link_ico">
+                    <i class="fa fa-link"></i>
+                  </div>
+                  <div class="featured_item_fadder"></div>
+                  <img src="images/featured/pic3.jpg" alt=""/>
+                </a>
+              </div>
+              <div class="featured_body">
+                <div class="featured_items_title">
+                  <h5><a href="javascript:void(0);">Lorem Ipsum Dolor</a></h5>        
+                  <div class="featured_items_meta">
+                    <span class="features_date">April 25, 2019 </span>
+                    <span class="features_comments">
+                        <a href="javascript:void(0);">4 comments</a>
+                    </span>
+                  </div>
+                </div>
+                <div class="features_text">
+                  <p>Integer vel varius et eros eu arcu aliquet vulputate nunc neque nunc, nec blandit sed lacus vel, <a href="javascript:void(0);">Read more!</a></p>
+                </div>
+              </div>
+            </div>
+        
+            <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="wrapped_img">
+                <a href="javascript:void(0);">
+                  <div class="featured_link_ico">
+                    <i class="fa fa-link"></i>
+                  </div>
+                  <div class="featured_item_fadder"></div>
+                  <img src="images/featured/pic4.jpg" alt=""/>
+                </a>
+              </div>
+              <div class="featured_body">
+                <div class="featured_items_title">
+                  <h5><a href="javascript:void(0);">Lorem Ipsum Dolor</a></h5>        
+                  <div class="featured_items_meta">
+                    <span class="features_date">April 25, 2019 </span>
+                    <span class="features_comments">
+                        <a href="javascript:void(0);">4 comments</a>
+                    </span>
+                  </div>
+                </div>
+                <div class="features_text">
+                  <p>Curabitur pulvinar tellus vitae sollicitudin pretium. Aenean pellente diam in lobortis sodales. <a href="javascript:void(0);">Read more!</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Features items -->    
     </div>
+    <!-- //Home section -->
+
+    <!-- About section -->
+    <div id="about">
+        <!-- Parallax -->
+        <section class="bg-2 text-center parallax mb70">
+          <h4 class="mb35">About</h4>
+          <h6 class="mt55">Who We Are &amp; What We Do</h6>
+        </section>
+        <!-- //Parallax -->
+        
+        <div class="container">
+        	<div class="bg_title"><h4 class="headInModule text-center">OUR CREATIVE SERVICES</h4></div>
+        </div>
+    
+        <div class="container mb20">
+          <div class="row">
+            <div class="col-md-4 about_block">
+              <p>Donec fringilla vitae ligula vitae facilisis. Vivamus consectetur tincidunt lorem a bibendum. Sed fermentum ac ante sit nec amet convallis suspendisse potenti suspendisse mollis.</p>
+              <p><a href="javascript:void(0);">Tortor nec</a>  iaculis tempor, orci augue dignissim nibh, id modo risus purus at nibh. Curabitur ac urna felis phasellus onvallis leo orci, sit amet feugiat nunc pretium fringilla. Morbi nec nulla a magna porta ullamcorper eget sit amet metus duis varius est ut lectus malesuada tincidunt vitae ut velit ac nunc.</p>
+              <p>Ullamcorper, dui non dignissim tristique, eros dolor ornare leo, a venenatis massa tellus ut est cras in ornare elit rabitur ultrices lectus in dui lacinia, non pellentesque mauris.</p>
+            </div>
+            <div class="col-md-4 about_block">
+              <img class="img-responsive" src="images/about/pic1.jpg" alt="pic"/>
+            </div>
+            <div class="col-md-4 about_block">
+              <div class="accordion shortcode_accordion_shortcode">
+                <h5 data-count="1" class="shortcode_accordion_item_title expanded_yes state-active">Lorem ipsum dolor sit amet
+                  <span class="ico"></span>
+                </h5>        
+                <div class="shortcode_accordion_item_body">
+                  <div class="ip">
+                    <p>Morbi nec nulla a magna porta ullamcorper eget sit amet metus duis varius est ut lectus malesuada
+                      tincidunt vitae ut velit ac nunc ullamcorper, dui non dignissim tristique, eros dolor ornare leo, a
+                      venenatis massa tellus ut est cras in ornare elit rabitur ultrices lectus in dui lacinia, non pellentesque
+                      mauris porttitor. Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </div>
+                <h5 data-count="2" class="shortcode_accordion_item_title expanded_no">Eget rhoncus pellentesque mas sodales
+                  <span class="ico"></span>
+                </h5>        
+                <div class="shortcode_accordion_item_body">
+                  <div class="ip">
+                    <p>
+                      <span>Eros dolor ornare leo, a venenatis massa tellus ut est cras in ornare elit rabitur ultrices lectus in dui lacinia, non pellentesque mauris porttitor. Lorem ipsum dolor sit amet, consectetur.&nbsp;</span>        
+                      <span>Morbi nec nulla a magna porta ullamcorper eget sit amet metus duis varius est ut lectus malesuada tincidunt vitae ut velit ac nunc ullamcorper, dui non.</span>
+                    </p>
+                  </div>
+                </div>
+                <h5 data-count="3" class="shortcode_accordion_item_title expanded_no">Vestibulum pretium
+                  <span class="ico"></span>
+                </h5>
+        
+                <div class="shortcode_accordion_item_body">
+                  <div class="ip">
+                    <p><span>Nulla a magna porta ullamcorper eget sit amet metus duis varius est ut lectus malesuada tincidunt vitae ut velit ac nunc ullamcorper, dui non dignissim tristique. Eros dolor ornare leo, a venenatis massa tellus ut est cras in ornare elit rabitur ultrices lectus in dui lacinia, non pellentesque mauris porttitor. Lorem ipsum dolor sit amet, consectetur</span><span>orbi.&nbsp;</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="container">
+          <div class="row mb25">
+            <div class="col-md-12 hr_wrapper1">
+              <hr/>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 progB">
+              <h4>What We Do</h4>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Progress bar -->
+        <div class="container">
+          <div class="row mb35">
+            <div class="col-md-4 col-sm-4 col-xs-12 bar">      
+                <div class="skill" data-color="#ff5d47">
+                    <div class="skill_wrap">
+                        <div class="skill_text" data-percent="82">82<span>%</span></div>
+                    </div>        
+                </div>
+              <div class="textP">
+                <h3>HTML5</h3>        
+                <p>Integer vel varius et eros eu arcu aliquet vulputate nunc neque nunc, nec blandit sed lacus vel, consectetur mollis elit nullam pretium, odio id. </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12 bar">
+              <div class="skill" data-color="#ff5d47">
+                    <div class="skill_wrap">
+                        <div class="skill_text" data-percent="69">69<span>%</span></div>
+                    </div>        
+                </div>
+              <div class="textP">
+                <h3>WordPress</h3>        
+                <p>Integer vel varius et eros eu arcu aliquet vulputate nunc neque nunc, nec blandit sed lacus vel, consectetur mollis elit nullam pretium, odio id. </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12 bar ">
+              <div class="skill" data-color="#ff5d47">
+                    <div class="skill_wrap">
+                        <div class="skill_text" data-percent="89">89<span>%</span></div>
+                    </div>        
+                </div>
+              <div class="textP">
+                <h3>CSS3</h3>        
+                <p>Integer vel varius et  <a href="javascript:void(0);">eros eu arcu</a> aliquet vulputate nunc neque nunc, nec blandit sed lacus vel, consectetur mollis elit nullam pretium, odio id.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- //Progress bar -->
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 hr_wrapper1">
+              <hr/>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 meet">
+              <h4>Meet Our team!</h4>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Our team -->        
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-12 meet">
+              <img src="images/meet_our_team/pic1.png" alt=""/>        
+              <div class="meet_items_title">
+                <h5><a href="javascript:void(0);">Tom Sawyer</a></h5>        
+                <div class="meet_items_meta">
+                  <span class="meet_date">CEO</span>        
+                  <p>Integer vel varius et eros eu arcu aliquet vulputate nunc neque nunc, nec blandit sed lacus vel, consectetur mollis elit nullam. </p>
+                </div>
+                <div class="smallproflinks">
+                    <div class="team_icons_wrapper">
+                        <a title="Tumblr" class="teamlink" href="javascript:void(0);"><span><i class="fa fa-tumblr-square"></i></span></a>
+                        <a title="Facebook" class="teamlink" href="javascript:void(0);"><span><i class="fa fa-facebook-square"></i></span></a>
+                        <a title="Twitter" class="teamlink" href="javascript:void(0);"><span><i class="fa fa-twitter"></i></span></a>
+                        <a title="Google+" class="teamlink" href="javascript:void(0);"><span><i class="fa fa-google-plus-square"></i></span></a>
+                    </div>
+                </div>
+              </div>
+            </div>
+        
+            <div class="col-md-3 col-sm-3 col-xs-12 meet">
+              <img src="images/meet_our_team/pic2.png" alt=""/>       
+              <div class="meet_items_title">
+                <h5><a href="javascript:void(0);">Anna Smith</a></h5>        
+                <div class="meet_items_meta">
+                  <span class="meet_date">Project Manager</span>        
+                  <p>Integer vel varius et eros eu arcu aliquet vulputate nunc neque nunc, nec blandit sed lacus vel, consectetur mollis elit nullam. </p>
+                </div>
+                <div class="smallproflinks">
+                    <div class="team_icons_wrapper">
+                        <a title="Tumblr" class="teamlink" href="javascript:void(0);"><span><i class="fa fa-tumblr-square"></i></span></a>
+                        <a title="Facebook" class="teamlink" href="javascript:void(0);"><span><i class="fa fa-facebook-square"></i></span></a>
+                        <a title="Twitter" class="teamlink" href="javascript:void(0);"><span><i class="fa fa-twitter"></i></span></a>
+                        <a title="Google+" class="teamlink" href="javascript:void(0);"><span><i class="fa fa-google-plus-square"></i></span></a>
+                    </div>
+                </div>
+              </div>
+            </div>
+        
+            <div class="col-md-3 col-sm-3 col-xs-12 meet">
+              <img src="images/meet_our_team/pic3.png" alt=""/>        
+              <div class="meet_items_title">
+                <h5><a href="javascript:void(0);">Anna Smith</a></h5>        
+                <div class="meet_items_meta">
+                  <span class="meet_date">Developer</span>        
+                  <p>Integer vel varius et eros eu arcu aliquet vulputate nunc neque nunc, nec blandit sed lacus vel, consectetur mollis elit nullam.</p>
+                </div>
+                <div class="smallproflinks">
+                    <div class="team_icons_wrapper">
+                        <a title="Tumblr" class="teamlink" href="javascript:void(0);"><span><i class="fa fa-tumblr-square"></i></span></a>
+                        <a title="Facebook" class="teamlink" href="javascript:void(0);"><span><i class="fa fa-facebook-square"></i></span></a>
+                        <a title="Twitter" class="teamlink" href="javascript:void(0);"><span><i class="fa fa-twitter"></i></span></a>
+                        <a title="Google+" class="teamlink" href="javascript:void(0);"><span><i class="fa fa-google-plus-square"></i></span></a>
+                    </div>
+                </div>
+              </div>
+            </div>
+        
+            <div class="col-md-3 col-sm-3 col-xs-12 meet">
+              <img src="images/meet_our_team/pic4.png" alt=""/>
+              <div class="meet_items_title">
+                <h5><a href="javascript:void(0);">Anna Smith</a></h5>
+        
+                <div class="meet_items_meta">
+                  <span class="meet_date">Designer</span>        
+                  <p>Integer vel varius et eros eu arcu aliquet vulputate nunc neque nunc, nec blandit sed lacus vel, consectetur mollis elit nullam.</p>
+                </div>
+                <div class="smallproflinks">
+                    <div class="team_icons_wrapper">
+                        <a title="Tumblr" class="teamlink" href="javascript:void(0);"><span><i class="fa fa-tumblr-square"></i></span></a>
+                        <a title="Facebook" class="teamlink" href="javascript:void(0);"><span><i class="fa fa-facebook-square"></i></span></a>
+                        <a title="Twitter" class="teamlink" href="javascript:void(0);"><span><i class="fa fa-twitter"></i></span></a>
+                        <a title="Google+" class="teamlink" href="javascript:void(0);"><span><i class="fa fa-google-plus-square"></i></span></a>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>          
+        </div>
+        <!-- //Our team --> 
+    </div>
+	<!-- //About section -->
+
+	<!-- Gallery section -->
+    <div id="gallery">
+        <!-- parallax -->
+        <section class="bg-3 text-center parallax">
+          <h4 class="mb35">Gallery</h4>
+          <h6 class="mt55">Lorem Ipsum Dolor Sit Amet Egestas Mauris Mas</h6>
+        </section>
+        <!-- //parallax -->
+                
+        <!-- gallery -->
+        <div class="main_wrapper">
+          <div class="gallery-item">
+            <a href="images/gallery/pic1.jpg" class="prettyPhoto" data-rel="prettyPhoto[gallery99]" title="">
+                <img src="images/gallery/pic1.jpg" alt="" class="fw_featured_image"/>
+                <span class="gallery_ico">
+                    <i class="fa fa-search"></i>
+                </span>                
+                <div class="gallery_fadder"></div>
+            </a>
+          </div>
+          <div class="gallery-item">
+            <a href="images/gallery/pic2.jpg" class="prettyPhoto" data-rel="prettyPhoto[gallery99]" title="">
+                <img src="images/gallery/pic2.jpg" alt="" class="fw_featured_image"/>
+                <span class="gallery_ico">
+                    <i class="fa fa-search"></i>
+                </span>                
+                <div class="gallery_fadder"></div>
+            </a>
+          </div>
+          <div class="gallery-item">
+            <a href="images/gallery/pic3.jpg" class="prettyPhoto" data-rel="prettyPhoto[gallery99]" title="">
+                <img src="images/gallery/pic3.jpg" alt="" class="fw_featured_image"/>
+                <span class="gallery_ico">
+                	<i class="fa fa-search"></i>
+                </span>                
+                <div class="gallery_fadder"></div>
+            </a>
+          </div>
+          <div class="gallery-item">
+            <a href="images/gallery/pic4.jpg" class="prettyPhoto" data-rel="prettyPhoto[gallery99]" title="">
+                <img src="images/gallery/pic4.jpg" alt="" class="fw_featured_image"/>
+                <span class="gallery_ico">
+                    <i class="fa fa-search"></i>
+                </span>                
+                <div class="gallery_fadder"></div>
+            </a>
+          </div>
+          <div class="gallery-item">
+            <a href="images/gallery/pic5.jpg" class="prettyPhoto" data-rel="prettyPhoto[gallery99]" title="">
+                <img src="images/gallery/pic5.jpg" alt="" class="fw_featured_image"/>
+                <span class="gallery_ico">
+                    <i class="fa fa-search"></i>
+                </span>                
+                <div class="gallery_fadder"></div>
+            </a>
+          </div>
+          <div class="gallery-item">
+            <a href="images/gallery/pic6.jpg" class="prettyPhoto" data-rel="prettyPhoto[gallery99]" title="">
+                <img src="images/gallery/pic6.jpg" alt="" class="fw_featured_image"/>
+                <span class="gallery_ico">
+                    <i class="fa fa-search"></i>
+                </span>                
+                <div class="gallery_fadder"></div>
+            </a>
+          </div>
+          <div class="gallery-item">
+            <a href="images/gallery/pic7.jpg" class="prettyPhoto" data-rel="prettyPhoto[gallery99]" title="">
+                <img src="images/gallery/pic7.jpg" alt="" class="fw_featured_image"/>
+                <span class="gallery_ico">
+                    <i class="fa fa-search"></i>
+                </span>                
+                <div class="gallery_fadder"></div>
+            </a>
+          </div>
+          <div class="gallery-item">
+            <a href="images/gallery/pic8.jpg" class="prettyPhoto" data-rel="prettyPhoto[gallery99]" title="">
+                <img src="images/gallery/pic8.jpg" alt="" class="fw_featured_image"/>
+                <span class="gallery_ico">
+                    <i class="fa fa-search"></i>
+                </span>                
+                <div class="gallery_fadder"></div>
+            </a>
+          </div>
+          <div class="gallery-item">
+            <a href="images/gallery/pic9.jpg" class="prettyPhoto" data-rel="prettyPhoto[gallery99]" title="">
+                <img src="images/gallery/pic9.jpg" alt="" class="fw_featured_image"/>
+                <span class="gallery_ico">
+                    <i class="fa fa-search"></i>
+                </span>                
+                <div class="gallery_fadder"></div>
+            </a>
+          </div>
+          <div class="gallery-item">
+            <a href="images/gallery/pic10.jpg" class="prettyPhoto" data-rel="prettyPhoto[gallery99]" title="">
+                <img src="images/gallery/pic10.jpg" alt="" class="fw_featured_image"/>
+                <span class="gallery_ico">
+                    <i class="fa fa-search"></i>
+                </span>                
+                <div class="gallery_fadder"></div>
+            </a>
+          </div>
+          <div class="gallery-item">
+            <a href="images/gallery/pic11.jpg" class="prettyPhoto" data-rel="prettyPhoto[gallery99]" title="">
+                <img src="images/gallery/pic11.jpg" alt="" class="fw_featured_image"/>
+                <span class="gallery_ico">
+                	<i class="fa fa-search"></i>
+                </span>                
+                <div class="gallery_fadder"></div>
+            </a>
+          </div>
+          <div class="gallery-item">
+            <a href="images/gallery/pic12.jpg" class="prettyPhoto" data-rel="prettyPhoto[gallery99]" title="">
+                <img src="images/gallery/pic12.jpg" alt="" class="fw_featured_image"/>
+                <span class="gallery_ico">
+                    <i class="fa fa-search"></i>
+                </span>                
+                <div class="gallery_fadder"></div>
+            </a>
+          </div>
+          <div class="gallery-item">
+            <a href="images/gallery/pic13.jpg" class="prettyPhoto" data-rel="prettyPhoto[gallery99]" title="">
+                <img src="images/gallery/pic13.jpg" alt="" class="fw_featured_image"/>
+                <span class="gallery_ico">
+                    <i class="fa fa-search"></i>
+                </span>                
+                <div class="gallery_fadder"></div>
+            </a>
+          </div>
+          <div class="gallery-item">
+            <a href="images/gallery/pic14.jpg" class="prettyPhoto" data-rel="prettyPhoto[gallery99]" title="">
+                <img src="images/gallery/pic14.jpg" alt="" class="fw_featured_image"/>
+                <span class="gallery_ico">
+                    <i class="fa fa-search"></i>
+                </span>                
+                <div class="gallery_fadder"></div>
+            </a>
+          </div>
+          <div class="gallery-item">
+            <a href="images/gallery/pic15.jpg" class="prettyPhoto" data-rel="prettyPhoto[gallery99]" title="">
+                <img src="images/gallery/pic15.jpg" alt="" class="fw_featured_image"/>
+                <span class="gallery_ico">
+                    <i class="fa fa-search"></i>
+                </span>                
+                <div class="gallery_fadder"></div>
+            </a>
+          </div>
+          <div class="gallery-item">
+            <a href="images/gallery/pic16.jpg" class="prettyPhoto" data-rel="prettyPhoto[gallery99]" title="">
+                <img src="images/gallery/pic16.jpg" alt="" class="fw_featured_image"/>
+                <span class="gallery_ico">
+                    <i class="fa fa-search"></i>
+                </span>                
+                <div class="gallery_fadder"></div>
+            </a>
+          </div>
+          <div class="gallery-item">
+            <a href="images/gallery/pic17.jpg" class="prettyPhoto" data-rel="prettyPhoto[gallery99]" title="">
+                <img src="images/gallery/pic17.jpg" alt="" class="fw_featured_image"/>
+                <span class="gallery_ico">
+                    <i class="fa fa-search"></i>
+                </span>                
+                <div class="gallery_fadder"></div>
+            </a>
+          </div>
+          <div class="gallery-item">
+            <a href="images/gallery/pic18.jpg" class="prettyPhoto" data-rel="prettyPhoto[gallery99]" title="">
+                <img src="images/gallery/pic18.jpg" alt="" class="img-responsive"/>
+                <span class="gallery_ico">
+                    <i class="fa fa-search"></i>
+                </span>                
+                <div class="gallery_fadder"></div>
+            </a>
+          </div>
+        </div>
+        <!-- //gallery -->        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 gallText">
+                  <p>Etiam cursus velit magna, at euismod libero elementum sit amet. In hac habitasse platea dictumst. Donec nec pretium nisi, ut tempus lectus. Sed porta viverra tellus, vitae ultricies tellus egestas scelerisque eget. Nunc molestie odio eu tellus ullamcorper lobortis. Vestibulum felis purus ultricies non metus at lacinia rutrum mi. Cras condimentum nisi vitae urna molestie varius proin lorem nisi vel dolor semper luctus quis in lorem. Donec nec fermentum orci, a ultricies erat. Vivamus vulputate ipsum urna at euismod libero elementum sit amet. In hac habitasse platea dictumst.</p>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <!-- //Gallery section -->
+    
+    <!-- Portfolio section -->
+    <div id="portfolio">
+        <!-- Parallax -->
+        <section class="bg-4 text-center parallax mb20">
+          <h4 class="mb35">Portfolio</h4>
+          <h6 class="mt55">Right here we’ve got something you gonna love...</h6>
+        </section>
+        <!--parallax end-->
+    
+    	<div class="container">
+            <div class="row">
+                <div class="col-md-12 hr_wrapper1 line-isotop1"><hr/></div>
+                <div id="options" class="col-md-12 text-center">
+                  <ul id="filter" class="optionset option-set" data-option-key="filter">
+                    <li class="selected">
+                      <a  href="#filter" data-option-value="*">All Works</a>
+                    </li>
+                    <li>
+                      <a href="#filter" data-option-value=".illustrations">Illustrations</a>
+                    </li>
+                    <li>
+                      <a href="#filter" data-option-value=".photo">Photo</a>
+                    </li>
+                    <li>
+                      <a href="#filter" data-option-value=".web">web</a>
+                    </li>
+                    <li>
+                      <a href="#filter" data-option-value=".branding">Branding</a>
+                    </li>
+                    <li>
+                      <a href="#filter" data-option-value=".polygraphy">Polygraphy</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-12 hr_wrapper1 line-isotop2"><hr/></div>
+            </div>
+            <!--isotop block-->
+            <div class="portfolio_block isotope-columns-4 row pretty mb30">
+                    
+              <div data-category="illustrations" class="photo element portfolio_item col-md-3 col-sm-3 col-xs-12">
+                <div class="portfolio_img">
+                  <a href="javascript:void(0);">
+                    <img class="img-responsive" src="images/col4pic/pic1.jpg" alt="" />        
+                    <div class="featured_link_ico">
+                      <i class="fa fa-link"></i>
+                    </div>
+                    <div class="featured_item_fadder"></div>
+                  </a>
+                </div>
+                <h4 class="portfolio_title"><a href="javascript:void(0);">Lorem Ipsum Dolor</a></h4>
+              </div>
+        
+              <div data-category="illustrations " class="photo element portfolio_item col-md-3 col-sm-3 col-xs-12">
+                <div class="portfolio_img">
+                  <a href="javascript:void(0);">
+                    <img class="img-responsive" src="images/col4pic/pic2.jpg" alt="" />        
+                    <div class="featured_link_ico">
+                      <i class="fa fa-link"></i>
+                    </div>
+                    <div class="featured_item_fadder"></div>
+                  </a>
+                </div>
+                <h4 class="portfolio_title"><a href="javascript:void(0);">Lorem Ipsum Dolor</a></h4>
+              </div>
+        
+              <div data-category="illustrations " class="illustrations element portfolio_item col-md-3 col-sm-3 col-xs-12">
+                <div class="portfolio_img">
+                  <a href="javascript:void(0);">
+                    <img class="img-responsive" src="images/col4pic/pic3.jpg" alt="" />        
+                    <div class="featured_link_ico">
+                      <i class="fa fa-link"></i>
+                    </div>
+                    <div class="featured_item_fadder"></div>
+                  </a>
+                </div>
+                <h4 class="portfolio_title"><a href="javascript:void(0);">Lorem Ipsum Dolor</a></h4>
+              </div>
+        
+              <div data-category="illustrations " class="polygraphy element portfolio_item col-md-3 col-sm-3 col-xs-12">
+                <div class="portfolio_img">
+                  <a href="javascript:void(0);">
+                    <img class="img-responsive" src="images/col4pic/pic4.jpg" alt="" />        
+                    <div class="featured_link_ico">
+                      <i class="fa fa-link"></i>
+                    </div>
+                    <div class="featured_item_fadder"></div>
+                  </a>
+                </div>
+                <h4 class="portfolio_title"><a href="javascript:void(0);">Lorem Ipsum Dolor</a></h4>
+              </div>
+        
+              <div data-category="illustrations " class="illustrations element portfolio_item col-md-3 col-sm-3 col-xs-12">
+                <div class="portfolio_img">
+                  <a href="javascript:void(0);">
+                    <img class="img-responsive" src="images/col4pic/pic5.jpg" alt="" />        
+                    <div class="featured_link_ico">
+                      <i class="fa fa-link"></i>
+                    </div>
+                    <div class="featured_item_fadder"></div>
+                  </a>
+                </div>
+                <h4 class="portfolio_title"><a href="javascript:void(0);">Lorem Ipsum Dolor</a></h4>
+              </div>
+        
+              <div data-category="illustrations " class="photo element portfolio_item col-md-3 col-sm-3 col-xs-12">
+                <div class="portfolio_img">
+                  <a href="javascript:void(0);">
+                    <img class="img-responsive" src="images/col4pic/pic6.jpg" alt="" />        
+                    <div class="featured_link_ico">
+                      <i class="fa fa-link"></i>
+                    </div>
+                    <div class="featured_item_fadder"></div>
+                  </a>
+                </div>
+                <h4 class="portfolio_title"><a href="javascript:void(0);">Lorem Ipsum Dolor</a></h4>
+              </div>
+        
+              <div data-category="illustrations " class="polygraphy element portfolio_item col-md-3 col-sm-3 col-xs-12">
+                <div class="portfolio_img">
+                  <a href="javascript:void(0);">
+                    <img class="img-responsive" src="images/col4pic/pic7.jpg" alt="" />        
+                    <div class="featured_link_ico">
+                      <i class="fa fa-link"></i>
+                    </div>
+                    <div class="featured_item_fadder"></div>
+                  </a>
+                </div>
+                <h4 class="portfolio_title"><a href="javascript:void(0);">Lorem Ipsum Dolor</a></h4>
+              </div>
+        
+              <div data-category="illustrations " class="web element portfolio_item col-md-3 col-sm-3 col-xs-12">
+                <div class="portfolio_img">
+                  <a href="javascript:void(0);">
+                    <img class="img-responsive" src="images/col4pic/pic8.jpg" alt="" />        
+                    <div class="featured_link_ico">
+                      <i class="fa fa-link"></i>
+                    </div>
+                    <div class="featured_item_fadder"></div>
+                  </a>
+                </div>
+                <h4 class="portfolio_title"><a href="javascript:void(0);">Lorem Ipsum Dolor</a></h4>
+              </div>
+        
+              <div data-category="illustrations " class="branding element portfolio_item col-md-3 col-sm-3 col-xs-12">
+                <div class="portfolio_img">
+                  <a href="javascript:void(0);">
+                    <img class="img-responsive" src="images/col4pic/pic9.jpg" alt="" />        
+                    <div class="featured_link_ico">
+                      <i class="fa fa-link"></i>
+                    </div>
+                    <div class="featured_item_fadder"></div>
+                  </a>
+                </div>
+                <h4 class="portfolio_title"><a href="javascript:void(0);">Lorem Ipsum Dolor</a></h4>
+              </div>
+        
+              <div data-category="illustrations " class="web element portfolio_item col-md-3 col-sm-3 col-xs-12">
+                <div class="portfolio_img">
+                  <a href="javascript:void(0);">
+                    <img class="img-responsive" src="images/col4pic/pic10.jpg" alt="" />        
+                    <div class="featured_link_ico">
+                      <i class="fa fa-link"></i>
+                    </div>
+                    <div class="featured_item_fadder"></div>
+                  </a>
+                </div>
+                <h4 class="portfolio_title"><a href="javascript:void(0);">Lorem Ipsum Dolor</a></h4>
+              </div>
+        
+              <div data-category="illustrations " class="illustrations element portfolio_item col-md-3 col-sm-3 col-xs-12">
+                <div class="portfolio_img">
+                  <a href="javascript:void(0);">
+                    <img class="img-responsive" src="images/col4pic/pic11.jpg" alt="" />        
+                    <div class="featured_link_ico">
+                      <i class="fa fa-link"></i>
+                    </div>
+                    <div class="featured_item_fadder"></div>
+                  </a>
+                </div>
+                <h4 class="portfolio_title"><a href="javascript:void(0);">Lorem Ipsum Dolor</a></h4>
+              </div>
+        
+              <div data-category="illustrations " class="branding element portfolio_item col-md-3 col-sm-3 col-xs-12">
+                <div class="portfolio_img">
+                  <a href="javascript:void(0);">
+                    <img class="img-responsive" src="images/col4pic/pic12.jpg" alt="" />        
+                    <div class="featured_link_ico">
+                      <i class="fa fa-link"></i>
+                    </div>
+                    <div class="featured_item_fadder"></div>
+                  </a>
+                </div>
+                <h4 class="portfolio_title"><a href="javascript:void(0);">Lorem Ipsum Dolor</a></h4>
+              </div>
+            </div>
+            <!-- //isotop block-->
+        </div>
+    
+    </div>
+    <!-- //Portfolio section -->
+    
+    <!-- Blog section -->
+    <div id="blog">
+    	<!--parallax-->
+        <section class="bg-5 text-center parallax">
+          <h4 class="mb35">Our Blog</h4>
+          <h6 class="mt55">Discover elegant solution for your online portfolio. Fast, reliable, affordable.</h6>
+        </section>
+        <!--parallax end-->
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 picBlog">
+              <div class="blog_post_image"><img src="images/blog_home/pic1.jpg" alt=""/></div>
+              <div class="preview_content">
+                <div class="content_date boxed_date w1">
+                  <div class="boxed_date_day">13</div>
+                  <div class="icb_pretitle">
+                    <span class="icb_pretitle_lt"></span>
+                    <span class="icb_pretitle_mid"></span>
+                    <span class="icb_pretitle_rt"></span>
+                  </div>
+                  <div class="boxed_date_month">September</div>
+                </div>
+                <h2><a class="blogpost_title" href="blog-post.html">Blog Post. Lorem ipsum Dolor Sit Amet!</a></h2>
+                <div class="preview_meta">
+                    <span class="preview_meta_author">by 
+                        <a href="javascript:void(0);">gt3dev</a>
+                    </span>
+                  <span class="preview_categ">in <a href="javascript:void(0);">Illustrations </a></span>
+                  <span class="preview_meta_comments"><a href="javascript:void(0);">4 comments</a></span>
+                    <span class="preview_meta_tags">tags: 
+                    <a href="javascript:void(0);">branding</a>, 
+                    <a href="javascript:void(0);">card</a>, 
+                    <a href="javascript:void(0);">design</a>, 
+                    <a href="javascript:void(0);">photography</a>, 
+                    <a href="javascript:void(0);">polygraphy</a>
+                    </span>
+                </div>
+                <article class="contentarea">
+                  Integer vel varius et eros eu arcu aliquet vulputate nunc neque nunc, nec blandit sed lacus vel, consectetur
+                  mollis elit nullam. pretium, odio id. tincidunt ultrices, urna diam convallis tortor, sit amet tristique urna
+                  enim eget diam. Cras eu purus dui. Sed facilisis pulvinar mi, at dictum tortor faucibus ut. In venenatis
+                  aliquam leo vitae faucibus. Etiam scelerisque malesuada commodo integer luctus elit mauris, in viverra nibh
+                  lorem scelerisque quis. Suspendisse quis rhoncus dolor. Nunc sed diam in enim facilisis ultricies donec quis
+                  aliquet enim. Proin a neque nec nisl ac egets tincidunt interdum. Proin eget venenatis risus. Sed viverra
+                  lorem ante, non ultricies massa congue vitae. Integer vel varius et eros eu arcu aliquet vulputate nunc neque
+                  nunc, nec es blandit sed lacus vel, consectetur mollis elit nullam. pretium, odio id. tincidunt ultrices, urna
+                  diam convallis tortor, sit amet tristique urna enim eget diam.&nbsp;<a href="javascript:void(0);">Read more!</a>
+                </article>
+              </div>
+            </div>
+            <div class="col-md-12 hr_wrapper1 line-isotop1">
+              <hr/>
+            </div>
+          </div>
+        </div>        
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 picBlog">
+              <div class="preview_content">
+                <div class="content_date boxed_date w2">
+                  <div class="boxed_date_day">9</div>
+                  <div class="icb_pretitle">
+                    <span class="icb_pretitle_lt"></span>
+                    <span class="icb_pretitle_mid"></span>
+                    <span class="icb_pretitle_rt"></span>
+                  </div>
+                  <div class="boxed_date_month">August</div>
+                </div>
+                <h2><a class="blogpost_title" href="blog-post.html">Blog Post. Lorem ipsum Dolor Sit Amet!</a></h2>        
+                <div class="preview_meta">
+                    <span class="preview_meta_author">by 
+                        <a href="javascript:void(0);">gt3dev</a>
+                    </span>
+                  <span class="preview_categ">in <a href="javascript:void(0);">Illustrations </a></span>
+                  <span class="preview_meta_comments"><a href="javascript:void(0);">4 comments</a></span>
+                    <span class="preview_meta_tags">tags: 
+                    <a href="javascript:void(0);">branding</a>, 
+                    <a href="javascript:void(0);">card</a>, 
+                    <a href="javascript:void(0);">design</a>, 
+                    <a href="javascript:void(0);">photography</a>, 
+                    <a href="javascript:void(0);">polygraphy</a>
+                    </span>
+                </div>
+                <article class="contentarea">
+                  Integer vel varius et eros eu arcu aliquet vulputate nunc neque nunc, nec blandit sed lacus vel, consectetur
+                  mollis elit nullam. pretium, odio id. tincidunt ultrices, urna diam convallis tortor, sit amet tristique urna
+                  enim eget diam. Cras eu purus dui. Sed facilisis pulvinar mi, at dictum tortor faucibus ut. In venenatis
+                  aliquam leo vitae faucibus. Etiam scelerisque malesuada commodo integer luctus elit mauris, in viverra nibh
+                  lorem scelerisque quis. Suspendisse quis rhoncus dolor. Nunc sed diam in enim facilisis ultricies donec quis
+                  aliquet enim. Proin a neque nec nisl ac egets tincidunt interdum. Proin eget venenatis risus. Sed viverra
+                  lorem ante, non ultricies massa congue vitae. Integer vel varius et eros eu arcu aliquet vulputate nunc neque
+                  nunc, nec es blandit sed lacus vel, consectetur mollis elit nullam. pretium, odio id. tincidunt ultrices, urna
+                  diam convallis tortor, sit amet tristique urna enim eget diam.&nbsp;<a href="javascript:void(0);">Read more!</a>
+                </article>
+              </div>
+            </div>
+            <div class="col-md-12 hr_wrapper1 line-isotop1">
+              <hr/>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 picBlog">
+              <div class="blog_post_image"><iframe src="http://player.vimeo.com/video/81487125" allowfullscreen=""></iframe></div>
+              <div class="preview_content">
+                <div class="content_date boxed_date w3">
+                  <div class="boxed_date_day">13</div>
+                  <div class="icb_pretitle">
+                    <span class="icb_pretitle_lt"></span>
+                    <span class="icb_pretitle_mid"></span>
+                    <span class="icb_pretitle_rt"></span>
+                  </div>
+                  <div class="boxed_date_month">September</div>
+                </div>
+                <h2><a class="blogpost_title" href="blog-post.html">Blog Post. Lorem ipsum Dolor Sit Amet!</a></h2>
+        
+                <div class="preview_meta">
+                    <span class="preview_meta_author">by <a href="javascript:void(0);">gt3dev</a></span>
+                    <span class="preview_categ">in <a href="javascript:void(0);">Illustrations </a></span>
+                    <span class="preview_meta_comments"><a href="javascript:void(0);">4 comments</a></span>
+                    <span class="preview_meta_tags">tags: 
+                        <a href="javascript:void(0);">branding</a>, 
+                        <a href="javascript:void(0);">card</a>, 
+                        <a href="javascript:void(0);">design</a>, 
+                        <a href="javascript:void(0);">photography</a>, 
+                        <a href="javascript:void(0);">polygraphy</a>
+                    </span>
+                </div>
+                <article class="contentarea last">Integer vel varius et eros eu arcu aliquet vulputate nunc neque nunc, nec blandit sed lacus vel, consectetur mollis elit nullam. pretium, odio id. tincidunt ultrices, urna diam convallis tortor, sit amet tristique urna enim eget diam. Cras eu purus dui. Sed facilisis pulvinar mi, at dictum tortor faucibus ut. In venenatis aliquam leo vitae faucibus. Etiam scelerisque malesuada commodo integer luctus elit mauris, in viverra nibh lorem scelerisque quis. Suspendisse quis rhoncus dolor. Nunc sed diam in enim facilisis ultricies donec quis
+                  aliquet enim. Proin a neque nec nisl ac egets tincidunt interdum. Proin eget venenatis risus. Sed viverra lorem ante, non ultricies massa congue vitae. Integer vel varius et eros eu arcu aliquet vulputate nunc neque nunc, nec es blandit sed lacus vel, consectetur mollis elit nullam. pretium, odio id. tincidunt ultrices, urna diam convallis tortor, sit amet tristique urna enim eget diam.&nbsp;<a href="javascript:void(0);">Read more!</a>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- //Blog section -->
+    
+    <!-- Contact section -->   
+    <div id="contacts">
+        <!--parallax-->
+        <section class="bg-6 text-center parallax mb70">
+          <h4 class="mb35">Contacts</h4>
+          <h6 class="mt55">Get in touch with our company!</h6>
+        </section>
+        <!--parallax end-->
+        
+        <!-- Testimonials-->
+        <div class="container tess mb40">
+          <div class="row mb20">
+            <div class="col-md-12 bg_title">
+              <h4 class="headInModule text-center">WHAT OUR CUSTOMERS SAY ABOUT US</h4>
+            </div>
+          </div>
+          <div class="row testimonials_block_1">
+            <div class="col-md-6 testim">
+              <div class="testimonials_photo">
+                <img src="images/testimonials/pic1.png" alt=""/>
+              </div>
+              <div class="testimonials_text">
+                <h5 class="testimonials_heading">John Doe</h5>
+                <h6 class="testimonials_company">Company Inc.</h6>        
+                <p>Consectetur mollis elit nullam pretium, aodio nec eget tincidunt ultrices, urna diam convallis tortor, sit amet tristique urna enim eget, diam cras eus purus dui sed facilisis pulvinar mi, at dictum tortor faucibus ut <a href="javascript:void(0);">in venenatis </a>aliquam leo vitae faucibus etiam ac scelerisque. malesuada commodo.</p>
+              </div>
+            </div>
+            <div class="col-md-6 testim">
+              <div class="testimonials_photo">
+                <img src="images/testimonials/pic2.png" alt=""/>
+              </div>
+              <div class="testimonials_text">
+                <h5 class="testimonials_heading">Anna Smith</h5>
+                <h6 class="testimonials_company">Company Inc.</h6>        
+                <p>Urna diam convallis tortor, sit amet tristique urna enim eget, diam <a href="javascript:void(0);">cras nec</a> purus dui sed facilisis pulvinar mi at dictum tortor faucibus ut nec enenatis aliquam leo vitae faucibus etiam ac scelerisque malesuada commodo luctus elit mauris, in viverra nibh scelerisque quis suspendisse quis lorem.</p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="row testim3B testimonials_block_3">
+            <div class="col-md-6 testim">
+              <div class="testimonials_photo">
+                <img src="images/testimonials/pic5.png" alt=""/>
+              </div>
+              <div class="testimonials_text">
+                <h5 class="testimonials_heading">John Doe</h5>
+                <h6 class="testimonials_company">Company Inc.</h6>
+        
+                <p>Consectetur mollis elit nullam pretium, aodio nec eget tincidunt ultrices, urna diam convallis tortor, sit
+                  amet tristique urna enim eget, diam cras eus purus dui sed facilisis pulvinar mi, at dictum tortor faucibus ut
+                  <a href="javascript:void(0);">in venenatis </a>aliquam leo vitae faucibus etiam ac scelerisque. malesuada commodo.</p>
+              </div>
+            </div>
+            <div class="col-md-6 testim">
+              <div class="testimonials_photo">
+                <img src="images/testimonials/pic6.png" alt=""/>
+              </div>
+              <div class="testimonials_text">
+                <h5 class="testimonials_heading">Anna Smith</h5>
+                <h6 class="testimonials_company">Company Inc.</h6>
+        
+                <p>Urna diam convallis tortor, sit amet tristique urna enim eget, diam <a href="javascript:void(0);">cras nec</a> purus dui sed
+                  facilisis pulvinar mi at dictum tortor faucibus ut nec enenatis aliquam leo vitae faucibus etiam ac
+                  scelerisque malesuada commodo luctus elit mauris, in viverra nibh scelerisque quis suspendisse quis lorem.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- //Testimonials-->
+        <div class="container gallText mb60 mt0">
+        	<div class="row">
+        		<p>Nunc consectetur sem nec placerat faucibus. Integer non diam quis sapien ultrices molestie id at nibh. Duis a interdum quam, sit amet aliquam tellus. Vestibulum condimentum condimentum molestie. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec vel risus condimentum, accumsan ante viverra, auctor lorem. Quisque tristique commodo.</p>
+        	</div>
+        </div>
+        
+        <!-- Contact Form wrap-->
+        <div class="cover contact_form_wrap">
+        	<div class="container">
+              <div class="row latest">
+                <!-- contact form -->
+                <div class="col-md-8">
+                  <div class="module_cont module_feedback_form">
+                    <form name="feedback_form" method="post" class="feedback_form">
+                      <input placeholder="Name&nbsp;*" type="text" name="field-name" value="" title="Name" class="field-name form_field">        
+                      <div class="clear"></div>
+                      <input placeholder="Email&nbsp;*" type="text" name="field-email" value="" title="Email" class="field-email form_field">        
+                      <div class="clear"></div>
+                      <input placeholder="Subject" type="text" name="field-subject" value="" title="Subject" class="field-subject form_field">        
+                      <div class="clear"></div>
+                      <textarea placeholder="Message&nbsp;*" name="field-message" cols="45" rows="5" title="Message" class="field-message form_field"></textarea>        
+                      <div class="clear"></div>
+                      <input type="reset" name="reset" id="reset2" value="Clear form!" class="feedback_reset">
+                      <input type="button" name="submit" class="feedback_go" id="submit2" value="Send Message!">        
+                      <div class="ajaxanswer"></div>
+                    </form>
+                  </div>
+                </div>
+                <!-- //contact form-->
+            
+                <!-- contact icons -->
+                <div class="col-md-4 info-icons">
+                  <ul>
+                    <li><i class="fa fa-home"></i>5512 Lorem Ipsum Vestibulum 666/13</li>
+                    <li><i class="fa fa-phone"></i>+1 800 789 50 12, +1 800 450 6935</li>
+                    <li><a href="javascript:void(0);"><i class="fa fa-envelope"></i>mail@compname.com</a></li>
+                    <li><i class="fa fa-skype"></i>compname</li>
+                    <li><a href="javascript:void(0);"><i class="fa fa-twitter"></i>Twitter</a></li>
+                    <li><a href="javascript:void(0);"><i class="fa fa-facebook-square"></i>Facebook</a></li>
+                    <li><a href="javascript:void(0);"><i class="fa fa-dribbble"></i>Dribbble</a></li>
+                    <li><a href="javascript:void(0);"><i class="fa fa-flickr"></i>Flickr</a></li>
+                    <li><a href="javascript:void(0);"><i class="fa fa-youtube-play"></i>YouTube</a></li>
+                  </ul>
+                </div>
+                <!-- //contact icons -->
+              </div>
+            </div>
+        </div>
+        <!-- //Contact Form wrap -->
+        
+        <!--discover-->
+        <div class="container">
+          <div class="row discover">
+            <div class="promo_text_block">
+              <div class="promo_text_block_wrapper">
+                <h4>Right here we’ve got something you gonna love...</h4>
+                <h6>Discover the Power of GT3 Page Builder Plugin!</h6>
+              </div>
+            </div>
+            <div class="promo_button_block">
+              <a href="javascript:void(0);" class="promo_button shortcode_button btn_large btn_type5">Buy Template on Themeforest!</a>
+            </div>
+          </div>
+        </div>
+        <!--end discover-->
+    </div>
+    <!-- //Contact section -->
+    
+	<!-- Pre footer -->
+    <div class="bg-7 text-center parallax">
+      <div class="container">
+        <div class="row footer">            
+          <div class="col-md-3 col-xs-12 block1-footer">
+            <div class="bg_title">
+              <h5 class="sidebar_header">Featured Posts</h5>
+            </div>
+            <ul class="recent_posts">
+              <li>
+                <div class="recent_posts_img">
+                  <img src="images/footer/pic1.jpg" alt="Image Post"/>
+                </div>
+                <div class="recent_posts_content">
+                  <a class="post_title" href="javascript:void(0);">
+                    <h5>Lorem Ipsum Dolor</h5>
+                  </a>
+    
+                  <div class="widget_posts_date">April 25, 2019</div>
+                  <p>Lacus vel consectetur mollis elit nullam pretium aodio.</p>
+                </div>
+                <div class="clear"></div>
+              </li>
+              <li>
+                <div class="recent_posts_img">
+                  <img src="images/footer/pic2.jpg" alt="Video Post"/>
+                </div>
+                <div class="recent_posts_content">
+                  <a class="post_title" href="javascript:void(0);">
+                    <h5>Cras Vitae eget</h5>
+                  </a>
+    
+                  <div class="widget_posts_date">April 25, 2019</div>
+                  <p>Vel consectetur mollis elit nullam pretium, odio lorem.</p>
+                </div>
+                <div class="clear"></div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-xs-12 block2-footer widget_flickr">
+            <div class="bg_title">
+              <h5 class="sidebar_header">Flickr Photostream</h5>
+            </div>
+            <div class="flickr_widget_wrapper">
+              <script src="http://www.flickr.com/badge_code_v2.gne?count=6&amp;display=latest&amp;size=s&amp;layout=x&amp;source=user&amp;user=92335820@N08"></script>
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-12 block3-footer">
+            <div class="bg_title">
+              <h5 class="sidebar_header">Tags</h5>
+            </div>
+            <div class="button_wrap">
+              <ul>
+                <li><a href="javascript:void(0);">lorem</a></li>
+                <li><a href="javascript:void(0);">vestibulum</a></li>
+                <li><a href="javascript:void(0);">vivamus</a></li>
+                <li><a href="javascript:void(0);">cras vitae</a></li>
+                <li><a href="javascript:void(0);">eget</a></li>
+                <li><a href="javascript:void(0);">ridiculus</a></li>
+                <li><a href="javascript:void(0);">purus</a></li>
+                <li><a href="javascript:void(0);">aliquam tortor</a></li>
+                <li><a href="javascript:void(0);">nec</a></li>
+                <li><a href="javascript:void(0);">pellentesque</a></li>
+                <li><a href="javascript:void(0);">ac mauris</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-12 block4-footer">
+            <div class="bg_title">
+              <h5 class="sidebar_header">MailChimp Widget</h5>
+            </div>
+            <div class="mail-chip-text">
+              <p>Lacus vel consectetur mollis elit nullam pretium aodio. nec eget tincidunt a ultrices, urna diam convallis
+                tortor, sit amet tristique urna enim eget, diam cras eus purus dui sed facilisis pulvinar mi at dictum
+                tortor faucib.</p>
+            </div>
+            <div class="mail-add">
+              <input type="text" placeholder="Email" name="EMAIL" id="EMAIL">
+            </div>
+            <div class="mail-button">
+              <input type="submit" name="submit" class="subscribe" value="Subscribe!">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>   
+    <!-- //Pre footer -->
+    <!-- Footer --> 
     <footer>
-      <div class="owner">
-
-      <p><a href="https://github.com/sllawcj" class="avatar"><img src="https://avatars3.githubusercontent.com/u/2712596?v=3&amp;s=60" width="48" height="48"></a>View <a href="https://github.com/sllawcj">sllawcj</a> on <a href="https://www.github.com">GitHub</a></p>
-
-      </div>
-      <div class="creds">
-        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
+        <div class="socials">
+            <div class="container">
+                <ul class="socials_list">
+                    <li><a target="_blank" href="http://facebook.com" class="ico_social-facebook" title="Facebook"></a></li>
+                    <li><a target="_blank" href="http://vimeo.com" class="ico_social-vimeo" title="Vimeo"></a></li>
+                    <li><a target="_blank" href="http://tumblr.com" class="ico_social-tumblr" title="Tumblr"></a></li>
+                    <li><a target="_blank" href="http://twitter.com" class="ico_social-twitter" title="Twitter"></a></li>
+                    <li><a target="_blank" href="http://delicious.com" class="ico_social-delicious" title="Delicious"></a></li>
+                    <li><a target="_blank" href="http://flickr.com" class="ico_social-flickr" title="Flickr"></a></li>
+                    <li><a target="_blank" href="http://pinterest.com" class="ico_social-pinterest" title="Pinterest"></a></li>
+                    <li><a target="_blank" href="http://dribbble.com" class="ico_social-dribbble" title="Dribbble"></a></li>
+                    <li><a target="_blank" href="http://linkedin.com" class="ico_social-linked" title="LinkedIn"></a></li>
+                    <li><a target="_blank" href="http://youtube.com" class="ico_social-youtube" title="YouTube"></a></li>
+                    <li><a target="_blank" href="http://google.com" class="ico_social-gplus" title="Google Plus"></a></li>
+                    <li><a target="_blank" href="http://instagram.com" class="ico_social-instagram" title="Instagram"></a></li>
+                </ul>
+            </div>
+        </div>   
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                	<div class="col-md-12 copy-text">&copy; 2020 Quidditch - Onepage Portfolio Template. All rights reserved</div>	
+                </div>
+            </div>
+        </div>    
     </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/sllawcj/sllawcj.github.io/tarball/master" class="tar">tar</a><a href="https://github.com/sllawcj/sllawcj.github.io/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
+    <!-- //Footer -->
 
-  
+	<header class="fixed-menu"></header>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/modules.js"></script>
+    <script type="text/javascript" src="js/current.js"></script>
+    <script type="text/javascript" src="js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>    
+    <script type="text/javascript">
+		jQuery(document).ready(function() {  
+		   "use strict";  
+		   jQuery('.fullscreenbanner').revolution({
+				delay: 5000,
+				startwidth: 1170,
+				startheight: 560,
+				navigationStyle: "square",
+				navigationType: false,
+				hideThumbs: 10,
+				hideTimerBar:"on",
+				navigationHOffset:30,
+				navigationVOffset:0
+          });        
+      });
+    </script>    
+    <script type="text/javascript" src="js/sorting.js"></script>
 </body>
 </html>
